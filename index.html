@@ -18,7 +18,7 @@
         <form class="search-form">
           <input
             type="search"
-            placeholder="Ennter a city.."
+            placeholder="Enter a city.."
             required
             class="search-form-input"
           />
@@ -26,15 +26,21 @@
         </form>
       </header>
       <main>
-        <h1>London</h1>
-        <div>
-          <p>
-            Monday 00:00, scattered clouds
-            <br />
-            Humidity: 70%, Wind: 3 km/h
-          </p>
+        <div class="weather-app-data">
+          <div>
+            <h1 class="weather-app-city">London</h1>
+            <p class="weather-app-details">
+              Monday 00:00 | Scattered clouds
+              <br />
+              Humidity: <strong>70%</strong> | Wind: <strong>3 km/h</strong>
+            </p>
+          </div>
+          <div class="weather-app-temp-container">
+            <div class="weather-app-icon">🌤️</div>
+            <div class="weather-app-temp">13</div>
+            <div class="weather-app-unit">°C</div>
+          </div>
         </div>
-        <div>🌤️ 13°C</div>
       </main>
       <footer>
         Coded by
