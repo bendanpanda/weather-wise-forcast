@@ -101,8 +101,14 @@ main {
   color: #005689;
 }
 
+.forecast-icon {
+  margin: 5px;
+  font-size: 30px;
+}
+
 .forecast-temp {
   font-size: 13px;
+  font-weight: bold;
 }
 
 .forecast-temp-max {
